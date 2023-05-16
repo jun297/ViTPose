@@ -1,5 +1,7 @@
 *.out
 pretrained_model/
+inputs/
+vis_results/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
