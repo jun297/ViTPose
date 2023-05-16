@@ -1,3 +1,19 @@
+install torch 1.9.0 with cuda 11.1
+
+pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+
+install 1.3.8 <= mmcv-full < 1.5.0 with torch 1.9.0+cu111
+
+pip install mmcv-full==1.4.8 -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.0/index.html
+
+install mmdet < 3; the error above ModuleNotFoundError: No module named 'mmengine' occurs because the version of mmdet is too high
+
+pip install mmdet==2.28.2
+
+install some minor packages (mmpose 0.24, etc)
+
+https://github.com/ViTAE-Transformer/ViTPose/issues/97
+
 <h1 align="left">ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation<a href="https://arxiv.org/abs/2204.12484"><img src="https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg" ></a> </h1> 
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vitpose-simple-vision-transformer-baselines/pose-estimation-on-coco-test-dev)](https://paperswithcode.com/sota/pose-estimation-on-coco-test-dev?p=vitpose-simple-vision-transformer-baselines)
